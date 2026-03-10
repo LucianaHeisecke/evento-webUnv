@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Evento Inspire</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header" id="inicio">
+    <div class="container nav">
+      <a href="#inicio" class="logo">Inspire<span>Event</span></a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú">
+        ☰
+      </button>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#evento">Evento</a>
+        <a href="#expertos">Expertos</a>
+        <a href="#temas">Temas</a>
+        <a href="#participacion">Participación</a>
+        <a href="#inscripcion" class="nav-cta">Inscribirme</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="overlay"></div>
+      <div class="container hero-content">
+        <p class="eyebrow">Edición 2026</p>
+        <h1>Construir puentes: el arte del diálogo</h1>
+        <p class="hero-text">
+          Un encuentro para jóvenes, expertos y líderes con talleres, conferencias
+          y espacios de reflexión sobre diálogo, cultura, universidad y sociedad.
+        </p>
+
+        <div class="hero-info">
+          <div class="info-card">
+            <span class="label">Fecha</span>
+            <strong>28 de marzo al 5 de abril</strong>
+          </div>
+          <div class="info-card">
+            <span class="label">Formato</span>
+            <strong>Conferencias + workshops</strong>
+          </div>
+          <div class="info-card">
+            <span class="label">Participación</span>
+            <strong>Oyente o participante</strong>
+          </div>
+        </div>
+
+        <div class="hero-actions">
+          <a href="#inscripcion" class="btn btn-primary">Inscribirme</a>
+          <a href="#evento" class="btn btn-secondary">Conocer más</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="intro section" id="evento">
+      <div class="container grid-2">
+        <div class="section-heading reveal">
+          <p class="section-tag">Sobre el evento</p>
+          <h2>Un espacio de encuentro, reflexión y trabajo</h2>
+        </div>
+
+        <div class="intro-text reveal">
+          <p>
+            Este evento busca reunir a jóvenes y expertos para profundizar en un
+            tema central que ayude a pensar los desafíos de la cultura actual.
+          </p>
+          <p>
+            La propuesta combina inspiración, formación y diálogo real entre
+            personas de distintos contextos, carreras y experiencias.
+          </p>
+          <p>
+            El objetivo no es solo asistir a charlas, sino también participar,
+            intercambiar ideas y generar conclusiones con impacto.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats section">
+      <div class="container stats-grid">
+        <div class="stat-card reveal">
+          <h3 class="counter" data-target="5">0</h3>
+          <p>continentes representados</p>
+        </div>
+        <div class="stat-card reveal">
+          <h3 class="counter" data-target="7">0</h3>
+          <p>ejes temáticos</p>
+        </div>
+        <div class="stat-card reveal">
+          <h3 class="counter" data-target="12">0</h3>
+          <p>expertos invitados</p>
+        </div>
+        <div class="stat-card reveal">
+          <h3 class="counter" data-target="50">0</h3>
+          <p>participantes por workshop</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="experts section" id="expertos">
+      <div class="container">
+        <div class="section-heading center reveal">
+          <p class="section-tag">Expertos</p>
+          <h2>Personas que inspiran la conversación</h2>
+          <p>
+            Profesionales de distintas áreas para abordar el diálogo desde múltiples perspectivas.
+          </p>
+        </div>
+
+        <div class="cards-grid">
+          <article class="speaker-card reveal">
+            <div class="avatar">JA</div>
+            <h3>Juana Acosta</h3>
+            <p>Política y diálogo en contextos de conflicto.</p>
+          </article>
+
+          <article class="speaker-card reveal">
+            <div class="avatar">CW</div>
+            <h3>Caitlin West</h3>
+            <p>Arte, cultura y diálogo a través del teatro y los podcasts.</p>
+          </article>
+
+          <article class="speaker-card reveal">
+            <div class="avatar">HK</div>
+            <h3>Hope Kean</h3>
+            <p>Neurociencia aplicada a la comunicación y al diálogo.</p>
+          </article>
+
+          <article class="speaker-card reveal">
+            <div class="avatar">IV</div>
+            <h3>Ilaria Vigorelli</h3>
+            <p>Filosofía, verdad y construcción de convicciones.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="topics section" id="temas">
+      <div class="container">
+        <div class="section-heading center reveal">
+          <p class="section-tag">Temas</p>
+          <h2>Ejes para pensar y dialogar</h2>
+        </div>
+
+        <div class="topics-grid">
+          <div class="topic-card reveal">
+            <h3>Filosofía</h3>
+            <p>Verdad, persona humana, convicciones y apertura al diálogo.</p>
+          </div>
+
+          <div class="topic-card reveal">
+            <h3>Política y discurso público</h3>
+            <p>Bien común, polarización y construcción de puentes sociales.</p>
+          </div>
+
+          <div class="topic-card reveal">
+            <h3>Tecnología y medios</h3>
+            <p>Redes sociales, algoritmos, cultura digital y conversación.</p>
+          </div>
+
+          <div class="topic-card reveal">
+            <h3>Psicología y relaciones humanas</h3>
+            <p>Escucha, empatía, resiliencia y vínculos interpersonales.</p>
+          </div>
+
+          <div class="topic-card reveal">
+            <h3>Universidad y trabajo</h3>
+            <p>Convivencia plural, conversaciones difíciles y compromiso con la verdad.</p>
+          </div>
+
+          <div class="topic-card reveal">
+            <h3>Arte y narrativa</h3>
+            <p>Historias, creatividad y cultura del encuentro.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="participation section" id="participacion">
+      <div class="container">
+        <div class="section-heading center reveal">
+          <p class="section-tag">Participación</p>
+          <h2>Dos formas de vivir la experiencia</h2>
+        </div>
+
+        <div class="participation-grid">
+          <div class="participation-card reveal">
+            <span class="number">01</span>
+            <h3>Oyente</h3>
+            <p>Asistencia a la conferencia principal y acceso al contenido general del evento.</p>
+          </div>
+
+          <div class="participation-card reveal">
+            <span class="number">02</span>
+            <h3>Participante</h3>
+            <p>
+              Acceso a la masterclass y participación activa en workshops de trabajo
+              con grupos internacionales e interdisciplinares.
+            </p>
+          </div>
+
+          <div class="participation-card reveal">
+            <span class="number">03</span>
+            <h3>Output final</h3>
+            <p>
+              Las conclusiones se transforman en un documento visual para amplificar
+              el impacto de las ideas generadas.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="schedule section">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="section-tag">Programa</p>
+          <h2>Una experiencia de tres momentos</h2>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3>Masterclass de apertura</h3>
+              <p>Una conferencia para introducir el tema y marcar el tono del encuentro.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3>Trabajo con expertos</h3>
+              <p>Talleres y dinámicas en grupos reducidos para profundizar ideas.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3>Conclusiones e impacto</h3>
+              <p>Un resultado final compartible que recoge las reflexiones del evento.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta section" id="inscripcion">
+      <div class="container cta-box reveal">
+        <p class="section-tag">Inscripción</p>
+        <h2>Reserva tu lugar en el evento</h2>
+        <p>
+          Súmate a una experiencia de formación, diálogo y conexión con jóvenes y
+          expertos de distintos lugares del mundo.
+        </p>
+
+        <form class="cta-form" id="contactForm">
+          <input type="text" id="nombre" placeholder="Tu nombre" />
+          <input type="email" id="email" placeholder="Tu email" />
+          <select id="modalidad">
+            <option value="">Selecciona modalidad</option>
+            <option value="oyente">Oyente</option>
+            <option value="participante">Participante</option>
+          </select>
+          <button type="submit" class="btn btn-primary">Quiero inscribirme</button>
+        </form>
+
+        <p class="form-message" id="formMessage"></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <div>
+        <h3>InspireEvent</h3>
+        <p>Una web pensada para presentar tu evento de forma moderna y clara.</p>
+      </div>
+
+      <div class="footer-links">
+        <a href="#inicio">Inicio</a>
+        <a href="#expertos">Expertos</a>
+        <a href="#temas">Temas</a>
+        <a href="#inscripcion">Inscripción</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
